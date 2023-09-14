@@ -1,0 +1,29 @@
+body{
+  background-color: #e6e6e6e6;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container{
+  width: 100%;
+  max-width: 960px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 30px;
+}
+
+#header{
+margin-bottom: 50px;
+}
+
+#logo{
+  width: 7rem;
+}
+
+#button{
+  width: 10rem;
+  height: 5.2rem;
+}
+
+a{
+  padding: 0;
+}
