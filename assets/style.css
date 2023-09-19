@@ -7,23 +7,19 @@ body{
   width: 100%;
   max-width: 960px;
   background-color: #fff;
-  padding: 50px;
+  padding: 30px;
   border-radius: 30px;
 }
 
 #header{
-margin-bottom: 50px;
+margin-bottom: 30px;
 }
 
 #logo{
   width: 7rem;
 }
 
-#button{
+#signin{
   width: 10rem;
   height: 5.2rem;
-}
-
-a{
-  padding: 0;
 }
