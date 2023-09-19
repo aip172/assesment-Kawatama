@@ -1,7 +1,7 @@
 <?php
 session_start();
 include('session.php');
-include('table_akun.php');
+include('extract.php');
 ?>
 
 <!DOCTYPE html>

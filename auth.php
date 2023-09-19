@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('conn.php');
+include('function.php');
 
 if (!isset($_POST['user'], $_POST['pass'])) {
   exit('Mohon isi data login');
@@ -15,18 +16,17 @@ if ($stmt = $con->prepare('SELECT id, pass FROM akun WHERE user = ?')) {
     $stmt->bind_result($id, $pass);
     $stmt->fetch();
 
-    if ($_POST['pass'] === $pass) {
+    if (md5($_POST['pass']) === $pass) {
       session_regenerate_id();
       $_SESSION['loggedin'] = TRUE;
       $_SESSION['id'] = $id;
       header('Location: home.php');
     } else {
-      echo 'Password salah!';
+      myAlert('Password salah!', 'index.html');
     }
   } else {
-    echo 'Username tidak terdaftar!';
+    myAlert('Username tidak terdaftar!', 'index.html');
   }
 
   $stmt->close();
 }
-
