@@ -3,9 +3,9 @@ body{
   font-family: 'Varela Round', sans-serif;
 }
 
-.container{
+#before-session{
   width: 100%;
-  max-width: 960px;
+  max-width: 800px;
   background-color: #fff;
   padding: 30px;
   border-radius: 30px;
@@ -15,11 +15,15 @@ body{
 margin-bottom: 30px;
 }
 
+#main{
+  padding-top: 6rem;
+}
+
 #logo{
   width: 7rem;
 }
 
 #signin{
-  width: 10rem;
+  width: 8rem;
   height: 5.2rem;
 }

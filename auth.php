@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 include('conn.php');
 
 if (!isset($_POST['user'], $_POST['pass'])) {
@@ -18,9 +18,8 @@ if ($stmt = $con->prepare('SELECT id, pass FROM akun WHERE user = ?')) {
     if ($_POST['pass'] === $pass) {
       session_regenerate_id();
       $_SESSION['loggedin'] = TRUE;
-      $_SESSION['nama'] = $_POST['user'];
       $_SESSION['id'] = $id;
-      echo 'Welcome ' . $_SESSION['nama'] . '!';
+      header('Location: home.php');
     } else {
       echo 'Password salah!';
     }
