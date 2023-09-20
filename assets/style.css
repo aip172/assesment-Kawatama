@@ -15,10 +15,6 @@ body{
 margin-bottom: 30px;
 }
 
-#main{
-  padding-top: 6rem;
-}
-
 #logo{
   width: 7rem;
 }
@@ -26,4 +22,8 @@ margin-bottom: 30px;
 #signin{
   width: 8rem;
   height: 5.2rem;
+}
+
+#main {
+  padding-top: 6rem;
 }

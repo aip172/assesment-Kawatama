@@ -36,7 +36,7 @@
           <input class="form-control mb-2" type="password" placeholder="Password" id="pass" name="pass" required>
           <div class="row justify-content-start">
             <div class="col-md-4 mb-2">
-              <a href="sign_up.html">Sign up</a>
+              <a href="sign_up.php">Sign up</a>
             </div>
           </div>
         </div>

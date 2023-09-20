@@ -22,10 +22,10 @@ if ($stmt = $con->prepare('SELECT id, pass FROM akun WHERE user = ?')) {
       $_SESSION['id'] = $id;
       header('Location: home.php');
     } else {
-      myAlert('Password salah!', 'index.html');
+      myAlert('Password salah!', 'index.php');
     }
   } else {
-    myAlert('Username tidak terdaftar!', 'index.html');
+    myAlert('Username tidak terdaftar!', 'index.php');
   }
 
   $stmt->close();
