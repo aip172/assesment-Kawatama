@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign up</title>
+  <title>Buat akun</title>
   <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
 
   <!-- Bootstrap -->
@@ -21,7 +21,7 @@
   <div class="container text-center position-absolute top-50 start-50 translate-middle" id="before-session">
     <div class="row justify-content-center">
       <div class="col" id="header">
-        <h1>Sign up new user</h1>
+        <h1>Buat akun user baru</h1>
       </div>
     </div>
 
@@ -36,7 +36,7 @@
       </div>
       <div class="row justify-content-center">
         <div class="col-md-2 p-0 m-0">
-          <input class="btn btn-primary btn-lg" type="submit" value="Sign up" id="signup">
+          <input class="btn btn-primary btn-lg" type="submit" value="Simpan" id="signup">
         </div>
       </div>
     </form>

@@ -11,7 +11,7 @@ include('extract.php');
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Profile user</title>
+  <title>Profil user</title>
   <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
 
   <!-- bootsrap -->
@@ -33,13 +33,13 @@ include('extract.php');
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.php"><i class="bi bi-house"></i> Home</a>
+            <a class="nav-link" href="home.php"><i class="bi bi-house"></i> Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="profile.php"><i class="bi bi-person-circle"></i> Hello, <?= $nama ?>!</a>
+            <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-person-circle"></i> Hello, <?= $nama ?>!</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="logout.php"><i class="bi bi-box-arrow-right"></i> Logout</a>
+            <a class="nav-link" href="logout.php"><i class="bi bi-box-arrow-right"></i> Keluar</a>
           </li>
         </ul>
       </div>
@@ -49,9 +49,9 @@ include('extract.php');
 
   <!-- main -->
   <div class="container" id="main">
-    <h2>Profile Page</h2>
+    <h2>Profil User</h2>
     <div>
-      <p>Your account details are below:</p>
+      <p>Detail akun :</p>
       <table>
         <tr>
           <td>Nama:</td>
@@ -69,6 +69,7 @@ include('extract.php');
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 
 </html>

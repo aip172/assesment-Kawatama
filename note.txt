@@ -1,0 +1,34 @@
+#SCP
+host : santri2.masantren.id
+port : 22144
+user : santri2
+pass : Santri2@2023
+
+#DB
+host : localhost
+port : 3306
+user : santri2
+pass : Santri2@2023
+phpmyadmin : pma4.masantren.id
+
+#teknologi
+    - bahasa pemrograman
+        - PHP
+    - database
+        - mariadb (disediakan)
+    - framework
+        - self dev (MVC - proses belajar)
+
+#projek 
+Membuat sebuah aplikasi yang memiliki kriteria berikut:
+ OK - autentikasi (login & logout) 
+    - relasi database (penyimpanan data yang berelasi)
+
+#komponen
+    - routing (http method)
+ OK - form validation (FE * BE)
+ OK - alerting
+    - database migration
+
+#nilai tambah
+ OK - git version control (https://github.com/aip172/assesment-Kawatama.git)
