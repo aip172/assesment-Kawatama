@@ -9,3 +9,5 @@ $stmt->execute();
 $stmt->bind_result($nama, $user, $pass);
 $stmt->fetch();
 $stmt->close();
+
+$id = $_SESSION['id'];

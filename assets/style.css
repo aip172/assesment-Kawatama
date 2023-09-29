@@ -1,9 +1,9 @@
-body{
+body {
   background-color: #e6e6e6e6;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
-#before-session{
+#index {
   width: 100%;
   max-width: 800px;
   background-color: #fff;
@@ -11,19 +11,25 @@ body{
   border-radius: 30px;
 }
 
-#header{
-margin-bottom: 30px;
+#header {
+  margin-bottom: 30px;
 }
 
-#logo{
+#logo {
   width: 7rem;
 }
 
-#signin{
+#signin {
   width: 8rem;
   height: 5.2rem;
 }
 
 #main {
-  padding-top: 6rem;
+  max-width: 1000px;
+  padding: 6rem;
+}
+
+#card{
+  padding: 10px;
+  border-radius: 30px;
 }
